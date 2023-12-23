@@ -87,8 +87,35 @@
                     <form action="#">
                         <ol>
                             <li>
+
+                                <label for="nationality">What is your Nationality?
+                                <input type="text" name="nationality" id="nationality"></label>
+                                <ul>
+                                    
+                                    <li><label for="race">Pick your race:</label>
+                                        
+                                        <select name="race" id="race">
+                                            <option value="">--Please choose one--</option>
+                                            <option value="fars">Fars</option>
+                                            <option value="kord">Kord</option>
+                                            <option value="lor">Lor</option>
+                                            <option value="tork">Tork</option>
+                                            <option value="torkaman">Torkaman</option>
+                                            <option value="arab">Arab</option>
+                                            <option value="balouch">Maazani</option>
+                                            
+
+                                        </select>
+                                        <p><small>*answer this question if you <strong>are</strong> Iranian</small></p>
+                                        
+
+                                    </li>
+                                </ul>
+                                
+                            </li>
+                            <li>
                                 <p>How should we call you?</p>
-                                <label for="fullname">call me: <input type="text" id="fullname"></label>
+                                <label for="fullname">call me: <input type="text" name="fullname" id="fullname"></label>
                                 
                                 
                             </li>
@@ -101,11 +128,12 @@
                                 </p>
                             </li>
                             <li>
-
-                            </li>
+                                <label for="bio">What do you know about Iran? <br />Write it in the box.</label>
+                                <input type="text" name="bio" id="bio"> 
+                            </li><br>
                             <li>
                                 <label for="date">Date of filling this form? <input type="date" name="date" id="date"></label>
-                            </li>
+                            </li><br>
                             <li>
                                 <label for="email">Well done! Now wite your email. It helps us to keep in touch with you: </label>
                                 <input type="email" name="emailuser" id="email" required>
@@ -133,7 +161,7 @@
            designed by: Fatemeh Safaee, Zahra Jalilvand, Ali Mohammadi, Mahsa Mirzavand, Hajar Hoseinpour
 
         </p>
-        follow us in github
+        <a href="https://github.com/fatemehsafaee/Iran-website-project">follow us in github</a>
         
     </footer>
     
