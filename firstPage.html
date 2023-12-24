@@ -60,17 +60,9 @@
             </p>
             <!-- table -->
             <section>
-                <table border="4">
+                <table border="2">
                     <thead>
                         <tr>
-                            <!-- <th>Fars</th>
-                            <th>Azeri</th>
-                            <th>Kurd</th>
-                            <th>Lur</th>
-                            <th>Baloch</th>
-                            <th>Arab</th>
-                            <th>Turkmen</th> -->
-                            <!-- <th>Maazani</th> -->
                             <th>Ethnic grups</th>
                             <th>Population(%)</th>
                             <th>Region Distribution</th>
@@ -163,20 +155,20 @@
                             <li>
 
                                 <label for="nationality">What is your Nationality?
-                                <input type="text" name="nationality" id="nationality"></label>
+                                <input type="text" name="nationality" id="nationality" required></label>
                                 <ul>
                                     
-                                    <li><label for="race">Pick your race:</label>
+                                    <li><label for="ethnic">Your ethnic group:</label>
                                         
-                                        <select name="race" id="race">
-                                            <option value="">--Please choose one--</option>
+                                        <select name="ethnic" id="race">
+                                            <option value="">--ethnic--</option>
                                             <option value="fars">Fars</option>
-                                            <option value="kord">Kord</option>
-                                            <option value="lor">Lor</option>
-                                            <option value="tork">Tork</option>
-                                            <option value="torkaman">Torkaman</option>
+                                            <option value="azeri">Azeri</option>
+                                            <option value="kurd">Kurd</option>
+                                            <option value="lur">Lur</option>
+                                            <option value="baloch">Baloch</option>
                                             <option value="arab">Arab</option>
-                                            <option value="balouch">Maazani</option>
+                                            <option value="turkmen">Turkmen</option>
                                             
 
                                         </select>
@@ -189,14 +181,14 @@
                             </li>
                             <li>
                                 <p>How should we call you?</p>
-                                <label for="fullname">call me: <input type="text" name="fullname" id="fullname"></label>
+                                <label for="fullname">call me: <input type="text" name="fullname" id="fullname" required></label>
                                 
                                 
                             </li>
                             <li>
                                 <p>What is your gender? 
                                     <label for="gender">Male</label>
-                                    <input type="radio" name="any" id="gender">
+                                    <input type="radio" name="any" id="gender" required>
                                     <label for="gender">Female</label>
                                     <input type="radio" name="any" id="gender">
                                 </p>
@@ -206,7 +198,7 @@
                                 <input type="text" name="bio" id="bio"> 
                             </li><br>
                             <li>
-                                <label for="date">Date of filling this form? <input type="date" name="date" id="date"></label>
+                                <label for="date">Date of filling this form? <input type="date" name="date" id="date" required></label>
                             </li><br>
                             <li>
                                 <label for="email">Well done! Now write your email. It helps us to keep in touch with you: </label>
