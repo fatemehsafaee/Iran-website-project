@@ -23,8 +23,8 @@
         <hr> 
         <label for="log" bold="">log in</label>
         <form action="https://classroom.google.com/h" method="post" id="log">
-            <input type="text" name="usr" placeholder="username">
-            <input type="password" name="pwd" placeholder="password">
+            <input type="text" name="usr" placeholder="username" required>
+            <input type="password" name="pwd" placeholder="password" required>
             <input type="submit" value="submit">
         </form>
     <hr><hr><br>
@@ -150,7 +150,7 @@
             </p>
             <fieldset>
                 <legend>let us know a little about you</legend>
-                    <form action="#">
+                    <form action="https://classroom.google.com/h">
                         <ol>
                             <li>
 
@@ -209,12 +209,14 @@
 
 
                         </ol>
-                    </form>
-                    <!-- submit -->
-                    <label for="submit">And for the last step, please submit all your information. <br><small>(by clicking submit, you will sign up in this web site.)</small><br />see you soon!</label>
-                    <button id="submit">submit</button>
-                    <p><strong>note:</strong><small> to log in the website, the username is your email and the password is your input name.</small></p>
+                        <!-- submit -->
+                        <label for="submit">And for the last step, please submit all your information. <br><small>(by clicking submit, you will sign up in this web site.)</small><br />see you soon!</label>
+                        <button id="submit">submit</button>
+                        <p><strong>note:</strong><small> to log in the website, the username is your email and the password is your input name.</small></p>
                 
+                    </form>
+                    
+                    
             </fieldset>
 
         </section>
